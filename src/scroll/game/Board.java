@@ -700,8 +700,8 @@ public class Board extends JPanel{
                 if (!doesNextSectionExist()) {
                     //actual random generator
                     if (distance < FINISH_DISTANCE) {
-                        //addSection(generator.nextInt(16));
-                        addSection(15);
+                        addSection(generator.nextInt(15));
+                        //addSection(15);
                     } else {
                         addSection(-2);
                         victory = true;

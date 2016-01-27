@@ -23,7 +23,7 @@ public class ScrollGame extends JFrame{
         setSize(900, 600);
         setLocationRelativeTo(null);
         setTitle("Falling Suns");
-        setResizable(false);
+        setResizable(true);
         setVisible(true);
         setIconImage(new ImageIcon(this.getClass().getResource("icon.png")).getImage());
         
