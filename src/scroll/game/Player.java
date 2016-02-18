@@ -37,7 +37,8 @@ public class Player {
 
 
     public void paint(Graphics2D g2d) {
-        g2d.drawRect((int)x, (int)y, width, height);
+        g2d.setColor(Color.BLUE);
+        g2d.fillRect((int)x, (int)y, width, height);
         //g2d.drawImage(image, (int)x, (int)y, null);
         //draw any items that belong to him here.
         for (int i = 0; i < health; i++) {
